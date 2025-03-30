@@ -14,10 +14,10 @@
 ## ⚙️ 2. Architecture Patterns
 - **Microservices vs. Monoliths:**
     - Service boundaries, orchestration vs. choreography.
-- **Event-Driven Architecture (EDA):**
+- **[Event-Driven Architecture (EDA)](https://github.com/shashwatsai/dist-sys-blueprint/tree/main/architecture_patterns/event_driven_architecture):**
     - Event sourcing, CQRS.
     - Exactly-once, at-least-once, and at-most-once message delivery semantics.
-- **Saga Patterns & Orchestration:**
+- **[Saga Patterns & Orchestration](https://github.com/shashwatsai/dist-sys-blueprint/tree/main/architecture_patterns/saga_pattern_and_orchestration):**
     - Handling distributed transactions with compensating actions.
 - **Sidecar and Service Mesh:**
     - Service discovery, observability with **Istio** or **Linkerd**.
@@ -39,7 +39,7 @@
 ---
 
 ## 📊 4. Data Management & Storage
-- **Consistency & Isolation Levels:**
+- **[Consistency & Isolation Levels](https://github.com/shashwatsai/dist-sys-blueprint/tree/main/data_management_and_storage/consistency_isolation_level):**
     - ACID vs. BASE properties.
     - Read and write anomalies.
 - **Distributed Databases:**
