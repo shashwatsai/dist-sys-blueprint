@@ -19,7 +19,7 @@
     - Exactly-once, at-least-once, and at-most-once message delivery semantics.
 - **[Saga Patterns & Orchestration](https://github.com/shashwatsai/dist-sys-blueprint/tree/main/architecture_patterns/saga_pattern_and_orchestration):**
     - Handling distributed transactions with compensating actions.
-- **Sidecar and Service Mesh:**
+- **[Sidecar and Service Mesh](https://github.com/shashwatsai/dist-sys-blueprint/tree/main/architecture_patterns/sidecar_and_service_mesh):**
     - Service discovery, observability with **Istio** or **Linkerd**.
 - **Workflow Orchestration:**
     - Temporal, Apache Airflow, or Conductor.
@@ -27,9 +27,9 @@
 ---
 
 ## ⚡ 3. Fault Tolerance and Resilience
-- **Failure Detection & Recovery:**
+- **[Failure Detection & Recovery](https://github.com/shashwatsai/dist-sys-blueprint/tree/main/fault_tolerance_resilience/failure_detection_recovery):**
     - Heartbeats, leader election (Raft, Paxos).
-- **Circuit Breakers & Retries:**
+- **[Circuit Breakers & Retries](https://github.com/shashwatsai/dist-sys-blueprint/tree/main/fault_tolerance_resilience/circuit_breakers_retries):**
     - Graceful degradation.
 - **Exponential Backoff & Jitter:**
     - Avoid thundering herd problems.
